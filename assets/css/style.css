@@ -1,0 +1,88 @@
+/* font-face */
+@font-face {
+  font-family: "raflidio";
+  src: url("../fonts/Poppins-Regular.ttf");
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+html {
+  font-size: 10px;
+  font-family: "raflidio";
+}
+
+/* section navbar */
+nav {
+  padding: 1.9em 7.5em;
+  border-bottom: 1px solid #e6e9ec;
+  display: flex;
+  background-color: #69ca69;
+}
+nav .text-brand {
+  font-size: 1.6rem;
+  padding-top: 0.4em;
+  flex-basis: 70%;
+  font-weight: bold;
+  color: white;
+}
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  padding-top: 0.5em;
+  display: inline-block;
+}
+
+nav ul li a {
+  font-size: 1.4rem;
+  text-decoration: none;
+  color: black;
+  padding-right: 1rem;
+  font-weight: bold;
+  color: white;
+}
+/* end section navbar */
+
+/* section header  */
+header {
+  display: flex;
+}
+
+header .bagian-1 {
+  flex-basis: 50%;
+  padding: 14%;
+}
+
+header .bagian-1 .text-hello {
+  font-size: 4rem;
+}
+
+header .bagian-1 p {
+  font-size: 1.5rem;
+}
+
+header .bagian-1 .btn-info {
+  padding: 1em 1.5em;
+  margin-top: 1em;
+  border-radius: 3em;
+  border: none;
+  background-color: #69ca69;
+  color: #ffff;
+  transition: 0.6 ease;
+}
+
+header .bagian-1 .btn-info:hover {
+  padding-right: 5em;
+}
+header .bagian-2 {
+  flex-basis: 50%;
+}
+
+header .bagian-2 img {
+  margin-top: 15%;
+  margin-right: 5%;
+}
+
+/* end section header */
