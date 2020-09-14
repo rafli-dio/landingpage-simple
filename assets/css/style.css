@@ -91,29 +91,11 @@ header .bagian-2 img {
   nav {
     padding: 2.4rem 8rem;
   }
-
-  header .bagian-satu {
-    padding: 77%;
-  }
 }
 
 @media (max-width: 768px) {
   nav {
     padding: 2rem 4rem;
-  }
-
-  nav .nav-section ul li a,
-  header .bagian-satu p,
-  header .bagian-satu .btn-info {
-    font-size: 1.2rem;
-  }
-
-  header .bagian-satu {
-    padding: 10% 6%;
-  }
-
-  header .bagian-satu .text-hello {
-    font-size: 3rem;
   }
 }
 
@@ -128,22 +110,5 @@ header .bagian-2 img {
 
   header {
     flex-direction: column;
-  }
-
-  header .bagian-satu {
-    order: 2;
-    text-align: center;
-  }
-
-  header .bagian-dua {
-    order: 1;
-    margin: auto;
-    width: 100%;
-  }
-}
-
-@media (max-width: 320px) {
-  header .bagian-satu .text-hello {
-    font-size: 2.8rem;
   }
 }
