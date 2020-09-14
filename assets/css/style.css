@@ -87,13 +87,15 @@ header .bagian-2 img {
 
 /* end section header */
 /* responsive */
-@media (max-width: 1024px) {
+@media (max-width: 812px) {
+  /* nav */
   nav {
-    padding: 2.4rem 8rem;
+    padding: 2.3rem 7rem;
   }
 
-  header {
-    padding: 77%;
+  /* header */
+  header .bagian-satu {
+    padding: 7%;
   }
 }
 
@@ -103,9 +105,17 @@ header .bagian-2 img {
   }
 
   nav .nav-section ul li a,
-  header p,
-  header .btn-info {
+  header .bagian-satu p,
+  header .bagian-satu .btn-info {
     font-size: 1.2rem;
+  }
+
+  header .bagian-satu {
+    padding: 10% 6%;
+  }
+
+  header .bagian-satu .text-hello {
+    font-size: 3rem;
   }
 }
 
@@ -121,10 +131,21 @@ header .bagian-2 img {
   header {
     flex-direction: column;
   }
+
+  header .bagian-satu {
+    order: 2;
+    text-align: center;
+  }
+
+  header .bagian-dua {
+    order: 1;
+    margin: auto;
+    width: 100%;
+  }
 }
 
 @media (max-width: 320px) {
-  header .text-hello {
+  header .bagian-satu .text-hello {
     font-size: 2.8rem;
   }
 }
