@@ -92,7 +92,7 @@ header .bagian-2 img {
     padding: 2.4rem 8rem;
   }
 
-  header .bagian-satu {
+  header {
     padding: 77%;
   }
 }
@@ -103,8 +103,8 @@ header .bagian-2 img {
   }
 
   nav .nav-section ul li a,
-  header .bagian-satu p,
-  header .bagian-satu .btn-info {
+  header p,
+  header .btn-info {
     font-size: 1.2rem;
   }
 }
@@ -124,8 +124,7 @@ header .bagian-2 img {
 }
 
 @media (max-width: 320px) {
- header .bagian-satu .text-hello {
+  header .text-hello {
     font-size: 2.8rem;
   }
 }
-s
